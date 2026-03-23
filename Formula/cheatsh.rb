@@ -9,7 +9,20 @@ class Cheatsh < Formula
   depends_on "go" => :build
 
   def install
-    system "make", "install", "PREFIX=#{prefix}"
+    system "make", "install",
+        "PREFIX=#{prefix}",
+        "SYSCONFDIR=#{etc}/cheatsh"
+  end
+
+  def post_install
+    config_dir = "#{Dir.home}/.config/cheatsh"
+    FileUtils.mkdir_p config_dir
+
+    ["commands.json", "commands_template.json"].each do |f|
+      src  = "#{etc}/cheatsh/#{f}"
+      dest = "#{config_dir}/#{f}"
+      FileUtils.cp(src, dest)
+    end
   end
 
   def caveats
