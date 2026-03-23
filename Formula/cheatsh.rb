@@ -1,8 +1,8 @@
 class Cheatsh < Formula
   desc    "a terminal cheat sheet for linux"
   homepage "https://github.com/agresdominik/cheat_sheet"
+  version "0.1.0"                                    
   url     "https://github.com/agresdominik/cheat_sheet/archive/refs/tags/v#{version}.tar.gz"
-  version "0.0.1"                                    
   sha256  "0000000000000000000000000000000000000000000000000000000000000000"                              
   license "GPL-3.0"                                      
 
