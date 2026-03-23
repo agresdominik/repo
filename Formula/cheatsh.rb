@@ -1,9 +1,9 @@
 class Cheatsh < Formula
   desc    "a terminal cheat sheet for linux"
   homepage "https://github.com/agresdominik/cheat_sheet"
-  version "0.1.0"                                    
-  url     "https://github.com/agresdominik/cheat_sheet/archive/refs/tags/v#{version}.tar.gz"
-  sha256  "377e949fcb2614ca1e25add3db6d27f221bec655179a323219535068d8185204"                              
+  version "0.1.2"
+  url     "https://github.com/agresdominik/cheat_sheet/archive/refs/tags/v0.1.2.tar.gz"
+  sha256  "b6df830340da71fbe85d972c82432479f8c4d45f821cad489c6ef2e719d88152"
   license "GPL-3.0"                                      
 
   depends_on "go" => :build
