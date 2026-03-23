@@ -1,4 +1,4 @@
-class cheatsh < Formula
+class Cheatsh < Formula
   desc    "a terminal cheat sheet for linux"
   homepage "https://github.com/agresdominik/cheat_sheet"
   url     "https://github.com/agresdominik/cheat_sheet/archive/refs/tags/v#{version}.tar.gz"
