@@ -17,3 +17,11 @@ brew install cheatsh
 ```
 
 Visit [cheat_sheet](https://github.com/agresdominik/cheat_sheet) to see more info
+
+### download-ram
+
+```brew 
+brew install download-ram
+```
+
+Visit [download-ram](https://github.com/agresdominik/download-ram) to see more info
