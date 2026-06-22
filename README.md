@@ -12,8 +12,8 @@ brew tap agresdominik/repo https://github.com/agresdominik/repo
 
 ### cheatsh 
 
-```brew 
-brew install cheatsh
+```bash
+brew install agresdominik/repo/cheatsh
 ```
 
 Visit [cheat_sheet](https://github.com/agresdominik/cheat_sheet) to see more info
