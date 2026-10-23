@@ -6,6 +6,7 @@ Personal Homebrew tap for my applications.
 
 ```bash 
 brew tap agresdominik/repo https://github.com/agresdominik/repo
+brew trust agresdominik/repo  # for updates
 ```
 
 ## Apps 
@@ -13,7 +14,7 @@ brew tap agresdominik/repo https://github.com/agresdominik/repo
 ### cheatsh 
 
 ```bash
-brew install agresdominik/repo/cheatsh
+brew install cheatsh
 ```
 
 Visit [cheat_sheet](https://github.com/agresdominik/cheat_sheet) to see more info
