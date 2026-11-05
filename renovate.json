@@ -1,3 +1,21 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "customManagers": [
+    {
+      "customType": "regex",
+      "managerFilePatterns": ["pkgs/cheatsh.nix"],
+      "matchStrings": ["version = \"(?<currentValue>[^\"]+)\";"],
+      "datasourceTemplate": "github-tags",
+      "depNameTemplate": "agresdominik/cheat_sheet",
+      "extractVersionTemplate": "^v(?<version>.*)$"
+    },
+    {
+      "customType": "regex",
+      "managerFilePatterns": ["pkgs/download-ram.nix"],
+      "matchStrings": ["version = \"(?<currentValue>[^\"]+)\";"],
+      "datasourceTemplate": "github-tags",
+      "depNameTemplate": "agresdominik/download-ram",
+      "extractVersionTemplate": "^v(?<version>.*)$"
+    }
+  ]
 }
