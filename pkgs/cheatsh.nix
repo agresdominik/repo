@@ -8,7 +8,7 @@ buildGoModule rec {
     owner = "agresdominik";
     repo = "cheat_sheet";
     rev = "v${version}";
-    hash = "sha256-oooakiioqOW5MrpfBDR4FY1svFQktMD4k96+EXy4BHY=";
+    hash = "sha256-K3soZCBiOsW8DrQq/clmiHnGx3HIunTqVygf+dGsQd0=";
   };
 
   vendorHash = "sha256-gpUX3Wa6JtJTlxIoW0kj9tG/JmpbTSNCW0lTS7sSoZI=";
