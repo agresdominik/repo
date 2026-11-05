@@ -2,7 +2,7 @@
 
 buildGoModule rec {
   pname = "cheatsh";
-  version = "0.1.4";
+  version = "0.1.5";
 
   src = fetchFromGitHub {
     owner = "agresdominik";

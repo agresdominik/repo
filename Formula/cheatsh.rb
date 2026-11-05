@@ -1,8 +1,8 @@
 class Cheatsh < Formula
   desc     "Terminal cheat sheet TUI for commands you keep forgetting"
   homepage "https://github.com/agresdominik/cheat_sheet"
-  url     "https://github.com/agresdominik/cheat_sheet/archive/refs/tags/v0.1.4.tar.gz"
-  sha256  "1592a1f2040be6b3963f1442780104b3e802eccf508b4aa744ef3326a3cb1db5"
+  url     "https://github.com/agresdominik/cheat_sheet/archive/refs/tags/v0.1.5.tar.gz"
+  sha256  "e9a9e6e7590a0de38a01e8d74a019a47aa2751496162f88ec5d8bee423fd2e75"
   license "GPL-3.0-only"                                      
 
   depends_on "go" => :build
